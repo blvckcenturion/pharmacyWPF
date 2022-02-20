@@ -1,0 +1,17 @@
+﻿<Window x:Class="pharmacy.SearchMed"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pharmacy"
+        mc:Ignorable="d"
+        Title="SearchMed" Height="450" Width="500">
+    <Grid>
+        <TextBlock x:Name="txt1" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="66" Width="348" FontSize="40" TextAlignment="Center" FontFamily="Segoe UI" Text="Lista de Productos" FontWeight="Normal" Foreground="#FF54D479"/>
+        <TextBox x:Name="txtSearch" HorizontalAlignment="Center" Margin="0,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="302" Height="24" BorderBrush="#FF54D479" TextAlignment="Center" TextChanged="txtSearch_TextChanged"/>
+        <RadioButton x:Name="nameCheckBox" Content="Busqueda por nombre" GroupName="searchBy" HorizontalAlignment="Left" Margin="99,154,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="priceCheckBox" Content="Busqueda por precio" GroupName="searchBy" HorizontalAlignment="Left" Margin="272,154,0,0" VerticalAlignment="Top"/>
+        <DataGrid x:Name="resultGrid" Margin="50,198,50,36"/>
+        <TextBlock x:Name="txt1_Copy" HorizontalAlignment="Center" Margin="0,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="224" FontSize="20" TextAlignment="Center" FontFamily="Segoe UI" Text="Lista de Productos" FontWeight="Normal" Foreground="#FFEC2E2E" Visibility="Hidden"/>
+    </Grid>
+</Window>

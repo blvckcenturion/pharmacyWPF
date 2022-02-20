@@ -1,0 +1,14 @@
+﻿<Window x:Class="pharmacy.Data"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pharmacy"
+        mc:Ignorable="d"
+        Title="Data" Height="575" Width="488">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="66" Width="348" FontSize="40" TextAlignment="Center" FontFamily="Segoe UI" Text="Lista de Productos" FontWeight="Normal" Foreground="#FF54D479"/>
+        <DataGrid x:Name="medItems" Margin="54,106,54,21"/>
+
+    </Grid>
+</Window>

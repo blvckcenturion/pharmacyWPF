@@ -1,0 +1,20 @@
+﻿<Window x:Class="pharmacy.RegisterSale"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pharmacy"
+        mc:Ignorable="d"
+        Title="RegisterSale" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="txt1" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="66" Width="348" FontSize="40" TextAlignment="Center" FontFamily="Segoe UI" Text="Registrar Venta" FontWeight="Normal" Foreground="#FF54D479"/>
+
+        <Button Content="Registrar" HorizontalAlignment="Center" Margin="0,362,0,0" VerticalAlignment="Top" Width="192" Height="42" Background="#FF54D479" BorderBrush="{x:Null}" Foreground="#FFF1F1F1" Click="Button_Click" />
+        <TextBox x:Name="priceBox" HorizontalAlignment="Left" Margin="500,262,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="209" Height="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="80,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="223" FontSize="20" TextAlignment="Center" FontFamily="Segoe UI" Text="Cantidad vendida" FontWeight="Normal" Foreground="#FF54D479"/>
+        <TextBox x:Name="idBox" HorizontalAlignment="Left" Margin="500,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="209" Height="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="80,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="223" FontSize="20" TextAlignment="Center" FontFamily="Segoe UI" Text="ID del producto" FontWeight="Normal" Foreground="#FF54D479"/>
+        <TextBlock x:Name="errorTxt" HorizontalAlignment="Center" Margin="0,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="348" FontSize="20" TextAlignment="Center" FontFamily="Segoe UI" Text="Registrar Venta" FontWeight="Normal" Foreground="#FFFF2525" RenderTransformOrigin="0.488,1.097" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
