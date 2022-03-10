@@ -9,7 +9,7 @@ namespace pharmacy
 {
     public class Storage
     {
-        public string path = @"C:\Users\blvck\source\repos\pharmacy\storage\medicines.txt";
+        public string path = @"C:\Users\Santiago\source\repos\pharmacyWPF\storage\medicines.txt";
 
         public List<Medicine> getFile()
         {

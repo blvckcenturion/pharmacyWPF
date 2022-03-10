@@ -1,6 +1,6 @@
-sap/93/123/1
-ibuprofeno/123/10/2
-Condones/0/12/3
-sap22/0/10/4
-Sap33/60/23/5
-asdasd/100/10/6
+Mentisan/93/123/1
+Ibuprofeno/123/10/2
+Pasta Dental/0/12/3
+Alprazolam/0/10/4
+Paracetamol/60/23/5
+Tonico Inti/100/10/6

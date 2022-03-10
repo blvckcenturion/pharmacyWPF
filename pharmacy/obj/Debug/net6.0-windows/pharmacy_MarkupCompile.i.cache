@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\blvck\source\repos\pharmacy\pharmacy\obj\Debug\net6.0-windows\
+C:\Users\Santiago\Source\Repos\pharmacyWPF\pharmacy\obj\Debug\net6.0-windows\
 pharmacy
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\blvck\source\repos\pharmacy\pharmacy\App.xaml
+C:\Users\Santiago\Source\Repos\pharmacyWPF\pharmacy\App.xaml
 51429736098
 
 11-697067222
-194-164764702
+1941905061893
 AddMed.xaml;Data.xaml;MainWindow.xaml;RegisterSale.xaml;SearchMed.xaml;
 
-True
+False
 
